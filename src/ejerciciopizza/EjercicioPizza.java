@@ -34,7 +34,9 @@ public class EjercicioPizza {
         
         pizzas [i]= new Pizza (ingredientes,tamano,precio);
     }
-        System.out.println(pizzas);
+    for (Pizza pizza:pizzas){
+        System.out.println(pizza);
+    }
     }
     
 }
