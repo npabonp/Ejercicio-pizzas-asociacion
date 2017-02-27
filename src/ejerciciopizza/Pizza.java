@@ -1,0 +1,50 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ejerciciopizza;
+
+/**
+ *
+ * @author Estudiante
+ */
+public class Pizza {
+    private String ingredientes;
+    private int tamano;
+    private double precio;
+
+    public Pizza(String ingredientes, int tamano, double precio) {
+        this.ingredientes = ingredientes;
+        this.tamano = tamano;
+        this.precio = precio;
+    }
+
+    public String getIngredientes() {
+        return ingredientes;
+    }
+
+    public int getTamano() {
+        return tamano;
+    }
+
+    public double getPrecio() {
+        return precio;
+    }
+
+    public void setIngredientes(String ingredientes) {
+        this.ingredientes = ingredientes;
+    }
+
+    public void setTamano(int tamano) {
+        this.tamano = tamano;
+    }
+
+    public void setPrecio(double precio) {
+        this.precio = precio;
+    }
+
+
+    
+    
+}
